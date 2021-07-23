@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.big-heading {
+  font-family: comic sans ms;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+#cta {
+  padding-top: 7% 15%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  padding-bottom: 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.navbar {
+  padding-bottom: 2.5rem;
+  padding-left: 0;
+  padding-top: 0;
+  padding-right: 0;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#press {
+  padding-bottom: 3%;
+}
+
+.price-text {
+  font-size: 3rem;
+  font-family: comic sans ms, italic;
+  line-height: 1.5;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+#testimonials {
+  background-color: #ff4c68;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1020px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
